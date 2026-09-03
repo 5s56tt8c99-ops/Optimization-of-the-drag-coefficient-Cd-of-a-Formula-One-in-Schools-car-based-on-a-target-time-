@@ -1,3 +1,5 @@
+HOW IT WORKS
+
 This C++ program determines the maximum drag coefficient Cd allowed for the model to travel the 20-meter track within the time limit of 0.9 seconds.
 The code is divided into three main modules:
 •    Thrust model (getThrust): Calculates the thrust force produced by the ‭CO2‬ cartridge at time ‭t. It models a 0.20-second impulse discharge phase with a linear decay that starts at a calibrated peak value of 12.36 N and gradually decreases to 0 N.
