@@ -67,7 +67,7 @@ int main() {
     std::cout << "CD massimo consentito per 0.9s: " << cd_mid << std::endl;
     std::cout << "Tempo con questo CD: " << simulateTime(cd_mid, m, rho, A, target_x, dt, mu) << " s" << std::endl;
 
-    // Verifica del tempo attuale reale (es. assumendo un CD tipico di 0.25)
+    // Verifica del tempo attuale reale (es. assumendo un CD tipico di 0.15)
     std::cout << "Tempo stimato con CD = 0.15: " << simulateTime(0.15, m, rho, A, target_x, dt, mu) << " s" << std::endl;
 
     return 0;
